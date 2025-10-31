@@ -80,8 +80,8 @@ This section is for developers who want to fork, test, or deploy the `FHEAuction
 
 1.  **Clone repo:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[username-github]/[tên-repo].git
-    cd [repo-name]
+    git clone https://github.com/Quangx199x/FHEAuctionV3.git
+    cd FHEAuctionV3
     ```
 
 2. **Install dependencies:**
@@ -98,7 +98,7 @@ This section is for developers who want to fork, test, or deploy the `FHEAuction
 
 ### Deployment
 
-You must deploy this contract on a network that supports FHEVM (e.g. Zama Sepolia Testnet).
+You must deploy this contract on a network that supports FHEVM (e.g. Sepolia Testnet).
 
 1. **Configure `.env`:**
     Create `.env` file and add Private Key of deploy wallet:
