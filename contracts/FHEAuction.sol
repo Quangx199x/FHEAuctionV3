@@ -1828,7 +1828,7 @@ contract FHEAuction is SepoliaConfig, EIP712, ReentrancyGuard {
  * LICENSE: MIT
  * ────────────────────────────────────────────────────────────────────────────
  * 
- * Copyright (c) 2024 Quangx199x & Support by AI
+ * Copyright (c) 2025 Quangx199x & Support by AI
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
