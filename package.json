@@ -24,15 +24,19 @@
     "hardhat"
   ],
   "dependencies": {
-    "encrypted-types": "^0.0.4",
+    "@fhevm/sdk": "^0.7.0-20",
     "@fhevm/solidity": "^0.8.0",
-    "@zama-fhe/oracle-solidity": "^0.1.0"
+    "@openzeppelin/contracts": "^5.0.2",
+    "@zama-fhe/oracle-solidity": "^0.1.0",
+    "encrypted-types": "^0.0.4"
   },
   "devDependencies": {
     "@fhevm/hardhat-plugin": "^0.1.0",
+    "@fhevm/mock-utils": "^0.1.0",
     "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
     "@nomicfoundation/hardhat-ethers": "^3.1.0",
     "@nomicfoundation/hardhat-network-helpers": "^1.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "@nomicfoundation/hardhat-verify": "^2.1.0",
     "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",
@@ -51,6 +55,8 @@
     "hardhat": "^2.26.0",
     "hardhat-deploy": "^0.11.45",
     "hardhat-gas-reporter": "^2.3.0",
+    "jsdom": "^27.0.0",
+    "jsdom-global": "^3.0.2",
     "mocha": "^11.7.1",
     "prettier": "^3.6.2",
     "prettier-plugin-solidity": "^2.1.0",
@@ -101,5 +107,13 @@
     "axios@<0.29.1": ">=0.29.1",
     "cookie@<0.7.0": ">=0.7.0",
     "minimatch": "^3.1.2"
+  },
+  "main": ".solcover.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/zama-ai/fhevm-hardhat-template/issues"
   }
 }
